@@ -1,0 +1,16 @@
+/home/eulazzo/Documents/projects/C# Course/bin/Debug/net5.0/C# Course
+/home/eulazzo/Documents/projects/C# Course/bin/Debug/net5.0/C# Course.deps.json
+/home/eulazzo/Documents/projects/C# Course/bin/Debug/net5.0/C# Course.runtimeconfig.json
+/home/eulazzo/Documents/projects/C# Course/bin/Debug/net5.0/C# Course.runtimeconfig.dev.json
+/home/eulazzo/Documents/projects/C# Course/bin/Debug/net5.0/C# Course.dll
+/home/eulazzo/Documents/projects/C# Course/bin/Debug/net5.0/ref/C# Course.dll
+/home/eulazzo/Documents/projects/C# Course/bin/Debug/net5.0/C# Course.pdb
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/C# Course.csproj.AssemblyReference.cache
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/C# Course.GeneratedMSBuildEditorConfig.editorconfig
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/C# Course.AssemblyInfoInputs.cache
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/C# Course.AssemblyInfo.cs
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/C# Course.csproj.CoreCompileInputs.cache
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/C# Course.dll
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/ref/C# Course.dll
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/C# Course.pdb
+/home/eulazzo/Documents/projects/C# Course/obj/Debug/net5.0/C# Course.genruntimeconfig.cache
