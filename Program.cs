@@ -1,22 +1,21 @@
 ﻿using System;
 
-namespace CSHARPCOURSE{
+namespace Loop{
     class Program{
         static void Main(string[] args){
-            Console.Write("Type your name: ");
-            string name = Console.ReadLine();
+            string[] names = {"joao","lorena","jhon Doe"};  
+            
+            foreach (var name in names){   
+                Console.WriteLine(name);
+            }
 
-            Console.Write("Which year has you born? ");
-            int yearOfBirth = int.Parse(Console.ReadLine());
+            for (var i = 0; i < names.Length; i++){
+                Console.WriteLine(names[i]);
+            }
 
-            Console.Write("Which year are we in? ");
-            int currentYear = int.Parse(Console.ReadLine());
-            int myAge  =currentYear - yearOfBirth;
-            Console.WriteLine($"Olá, {name}, Your age are {myAge} years old");            
-        
-            string isOverAge = (currentYear - yearOfBirth) > 18 ?"Your can drink" : "Sorry pal, maybe a few years later.";
-
-            Console.WriteLine(isOverAge);
+            if(string.Equals(names[0], "joao", StringComparison.OrdinalIgnoreCase)){
+                Console.WriteLine("The are equals");
+            }
         }
     }
 }
