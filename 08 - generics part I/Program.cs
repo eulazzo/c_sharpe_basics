@@ -1,4 +1,6 @@
-﻿using System;
+﻿/*
+
+using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,17 +8,23 @@ using System.Collections.Generic;
 namespace Generics{
     class Program{
         static void Main(string[] args){
-            
+          ILogger logger = new FileLogger("MyLogger.txt");
+          BankAccount firstUserAccount = new BankAccount("Ana",232,logger);
+          BankAccount secondUserAccount = new BankAccount("lazaro",230,logger);
+        
+        
+          List <BankAccount> accounts = new List<BankAccount>{
+            firstUserAccount,
+            secondUserAccount
+          };
 
-          
+          foreach (BankAccount account in accounts){
+             Console.WriteLine(account.Balance);
+          }
         }
-
     }          
 }  
 
-
-
- 
 
 class FileLogger :ILogger {
     private readonly string filePath;
@@ -72,3 +80,5 @@ class BankAccount{
     }
 
 }
+
+*/
