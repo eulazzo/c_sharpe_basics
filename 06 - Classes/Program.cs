@@ -45,9 +45,9 @@ class BankAccount{
         if(amount<=0) throw new Exception("Deposit less or equal to zero not allowed!");
         Balance+= amount;
     }
-*/
 
 }
+*/
 
 
 
