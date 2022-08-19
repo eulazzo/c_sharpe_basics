@@ -1,4 +1,6 @@
-﻿using System;
+﻿/*
+
+using System;
 using System.IO;
 namespace Classes{
     class Program{
@@ -68,3 +70,5 @@ class BankAccount{
     }
 
 }
+
+*/
