@@ -3,24 +3,35 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace AboutExtensions{
+namespace GuessGame{
     class Program{
         static void Main(string[] args){
-            "This is a text".WriteLine(ConsoleColor.Red);
-       } 
+           string secretWord = "code";
+           string myGuessTry =  "";
+           int guessCount = 0;
+           int guessLimit = 3;
+           bool outOfGuesses = false;
+
+           while(secretWord!=myGuessTry && !outOfGuesses){
+              if(guessCount<guessLimit){
+                 Console.WriteLine("Try to guess my secret word: ");
+                 myGuessTry = Console.ReadLine();
+                 guessCount++;
+              }else {;
+                outOfGuesses = true;
+              }
+           } 
+
+           if(secretWord==myGuessTry){
+             Console.WriteLine("Your Win!");
+           }else{
+             Console.WriteLine("Ops! It's seems that your guesses chances has ended!");
+           }
+        }
     } 
 }
 
-static class Extension {
-    public static void WriteLine(this string text,ConsoleColor color){
-        Console.ForegroundColor =color;
-        Console.WriteLine(text); 
-        Console.ResetColor();
-    }
-}
-
  
-
 
 
  
